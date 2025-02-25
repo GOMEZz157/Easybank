@@ -2,14 +2,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 @theme {
-  --color-dark-blue: #2D314D;
-  --color-lime-green: #31D35C;
-  --color-bright-cyan: #2BB7DB;
-  --color-gradient-green: linear-gradient(to right,#31D35C,#2BB7DB);
-  --color-grayish-blue: #9698A6;
-  --color-light-blue: #F4F6F9;
-  --color-light-gray: #FAFAFA;
-  --color-white: #FFFFFF;
-
+  --color-dark-blue: #2d314d;
+  --color-lime-green: #31d35c;
+  --color-bright-cyan: #2bb7db;
+  --color-gradient-green: linear-gradient(to right, #31d35c, #2bb7db);
+  --color-grayish-blue: #9698a6;
+  --color-light-blue: #f4f6f9;
+  --color-light-gray: #fafafa;
+  --color-gray-mono: #F3F4F6;
+  --color-white: #ffffff;
   --font-public: "Public Sans", sans-serif;
+}
+
+.mockup-bg {
+  background-image: url("./images/bg-intro-desktop.svg");
+  background-size: 1150px;
+  background-position:130% 70%;
+  background-repeat: no-repeat;
+}
+
+.shadow-custom {
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
 }
