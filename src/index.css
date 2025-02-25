@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@theme {
+  --color-dark-blue: #2D314D;
+  --color-lime-green: #31D35C;
+  --color-bright-cyan: #2BB7DB;
+  --color-gradient-green: linear-gradient(to right,#31D35C,#2BB7DB);
+  --color-grayish-blue: #9698A6;
+  --color-light-blue: #F4F6F9;
+  --color-light-gray: #FAFAFA;
+  --color-white: #FFFFFF;
+
+  --font-public: "Public Sans", sans-serif;
+}
