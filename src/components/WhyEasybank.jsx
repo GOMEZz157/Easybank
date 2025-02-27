@@ -29,14 +29,14 @@ const features = [
 
 export default function WhyEasybank() {
   return (
-    <section className="bg-gray-mono pl-50 h-170.25 flex flex-col gap-15 justify-center">
-      <div className="flex flex-col gap-9 w-160">
-        <h2 className="text-4xl text-dark-blue">Why choose Easybank?</h2>
-        <p className="text-lg font-light text-grayish-blue">
+    <section className="bg-gray-mono md:pl-50 h-318.75 md:h-170.25 flex flex-col gap-15 justify-center items-center md:items-start">
+      <div className="flex flex-col gap-9 w-85.5 md:w-160">
+        <h2 className="text-3xl md:text-4xl text-dark-blue text-center md:text-left">Why choose Easybank?</h2>
+        <p className="text-sm md:text-lg font-light text-grayish-blue text-center md:text-left">
           We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.
         </p>
       </div>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         {features.map((feature, index) => (
           <FeatureCard key={index} {...feature} />
         ))}

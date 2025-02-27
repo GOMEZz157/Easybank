@@ -2,8 +2,8 @@ import Button from "./Button";
 import Mockup from "../images/image-mockups.png";
 export default function Main() {
   return (
-    <section className="flex bg-light-gray font-light h-164 items-center justify-between overflow-hidden mockup-bg">
-      <div className="flex flex-col gap-6 w-106 ml-50">
+    <section className="flex flex-col bg-light-gray font-light h-164 items-center md:justify-between overflow-hidden justify-center mockup-bg md:flex-row">
+      <div className="flex flex-col gap-6 w-106 md:ml-50">
         <h1 className="text-dark-blue text-[52px]">
           Next generation digital banking!!!!
         </h1>
