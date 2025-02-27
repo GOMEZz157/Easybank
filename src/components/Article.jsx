@@ -39,15 +39,16 @@ export default function Article() {
         "After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...",
     },
   ];
+
   return (
-    <section className="flex justify-center items-center bg-light-gray h-172">
-      <div className="w-277.5">
+    <section className="flex justify-center md:items-center bg-light-gray h-auto py-27.5">
+      <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl font-light text-dark-blue mb-9">
           Latest Articles
         </h2>
-        <div className="flex gap-7.5">
-          {cards.map((cards, index) => (
-            <ArticleCard key={index} {...cards} />
+        <div className="flex flex-col md:flex-row gap-7.5">
+          {cards.map((card, index) => (
+            <ArticleCard key={index} {...card} />
           ))}
         </div>
       </div>
