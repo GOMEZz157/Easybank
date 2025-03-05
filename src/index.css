@@ -9,16 +9,28 @@
   --color-grayish-blue: #9698a6;
   --color-light-blue: #f4f6f9;
   --color-light-gray: #fafafa;
-  --color-gray-mono: #F3F4F6;
+  --color-gray-mono: #f3f4f6;
   --color-white: #ffffff;
   --font-public: "Public Sans", sans-serif;
 }
 
-.mockup-bg {
+.mockup {
   background-image: url("./images/bg-intro-desktop.svg");
-  background-size: 1150px;
-  background-position:130% 70%;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .mockup {
+    background-size: 700px;
+    background-position: 40% -270%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mockup {
+    background-size: 1150px;
+    background-position: 130% 70%;
+  }
 }
 
 .shadow-custom {

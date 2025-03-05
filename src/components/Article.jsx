@@ -42,8 +42,8 @@ export default function Article() {
 
   return (
     <section className="flex justify-center md:items-center bg-light-gray h-auto py-27.5">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl font-light text-dark-blue mb-9">
+      <div className="max-w-auto md:max-w-7xl mx-auto px-4">
+        <h2 className="text-3xl font-light text-dark-blue mb-9">
           Latest Articles
         </h2>
         <div className="flex flex-col md:flex-row gap-7.5">
